@@ -1,25 +1,25 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Lato", sans-serif;
 }
 
-body{
+body {
     background-color: rgb(237, 234, 232);
 }
 
-.container{
+.container {
     background-color: #fff;
     margin: 40px auto;
     padding: 30px;
     width: 90%;
     max-width: 600px;
     border-radius: 10px;
-    
+
 }
 
-.container h1{
+.container h1 {
     text-align: center;
     font-weight: 800;
     color: #676060;
@@ -31,7 +31,7 @@ body{
 
 
 
-#quiz-div{
+#quiz-div {
     padding: 20px 0;
     font-weight: normal;
     font-size: 20px;
@@ -40,14 +40,14 @@ body{
 
 }
 
-#answer-div{
+#answer-div {
     padding: 10px 0;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-#answer-div .btn{
+#answer-div .btn {
     padding: 10px;
     margin: 10px 0;
     background-color: #fff;
@@ -61,16 +61,16 @@ body{
     transition: all 0.3s;
 }
 
-#answer-div .btn:hover:not([disabled]){
+#answer-div .btn:hover:not([disabled]) {
     background-color: #676060;
     color: #fff;
 }
 
-#answer-div .btn:disabled{
+#answer-div .btn:disabled {
     cursor: no-drop;
 }
 
-#next{
+#next {
     padding: 10px 50px;
     margin: 20px 0;
     border: solid 1px #b3aeae;
@@ -82,19 +82,18 @@ body{
     transition: all.3s;
     background: #2c2a2a;
     display: none;
-    
+
 }
 
-#next:hover{
+#next:hover {
     color: #fff;
     background-color: #676060;
 }
 
-#answer-div .correct{
+#answer-div .correct {
     background-color: rgb(199, 242, 195);
 }
 
-#answer-div .incorrect{
+#answer-div .incorrect {
     background-color: rgb(238, 91, 101);
 }
-
